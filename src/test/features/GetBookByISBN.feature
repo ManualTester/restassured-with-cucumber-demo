@@ -7,7 +7,7 @@ Feature: Get book by ISBN
 	| totalItems 	 		| 1 					|
 	| kind					| books#volumes			|
    And response includes the following in any order
-	| items.volumeInfo.title 					| Steve Jobs			|
+	| items.volumeInfo.title 					| Steve Jobs and			|
 	| items.volumeInfo.publisher 				| Simon and Schuster	|   
 	| items.volumeInfo.pageCount 				| 630					|
 
